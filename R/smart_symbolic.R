@@ -86,9 +86,10 @@ smart_sym_integrate <- function(formula_str, var = "x") {
 }
 
 
-#' Print method for smart symbolic functions
-#'
-#' Prints the generated mathematical function cleanly to the console.
+#' @title Print Smart Symbolic objects
+#' @description Prints the symbolic derivative nicely.
+#' @param x The smart_sym object to print.
+#' @param ... Additional arguments.
 #' @export
 print.smart_sym <- function(x, ...) {
   cat("\n\U25B6 Smart Symbolic Form Generated\n")

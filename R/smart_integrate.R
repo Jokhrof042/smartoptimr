@@ -1,4 +1,9 @@
-#' Smart Numerical Integration
+#' @title Smart Integration
+#' @description Performs numerical integration.
+#' @param fn The function to integrate.
+#' @param lower The lower limit of integration.
+#' @param upper The upper limit of integration.
+#' @param ... Additional arguments.
 #' @export
 smart_integrate <- function(fn, lower, upper, ...) {
   n_dim <- length(lower)

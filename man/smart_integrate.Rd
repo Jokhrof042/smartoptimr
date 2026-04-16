@@ -2,10 +2,19 @@
 % Please edit documentation in R/smart_integrate.R
 \name{smart_integrate}
 \alias{smart_integrate}
-\title{Smart Numerical Integration}
+\title{Smart Integration}
 \usage{
 smart_integrate(fn, lower, upper, ...)
 }
+\arguments{
+\item{fn}{The function to integrate.}
+
+\item{lower}{The lower limit of integration.}
+
+\item{upper}{The upper limit of integration.}
+
+\item{...}{Additional arguments.}
+}
 \description{
-Smart Numerical Integration
+Performs numerical integration.
 }

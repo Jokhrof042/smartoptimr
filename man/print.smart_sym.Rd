@@ -2,10 +2,15 @@
 % Please edit documentation in R/smart_symbolic.R
 \name{print.smart_sym}
 \alias{print.smart_sym}
-\title{Print method for smart symbolic functions}
+\title{Print Smart Symbolic objects}
 \usage{
 \method{print}{smart_sym}(x, ...)
 }
+\arguments{
+\item{x}{The smart_sym object to print.}
+
+\item{...}{Additional arguments.}
+}
 \description{
-Prints the generated mathematical function cleanly to the console.
+Prints the symbolic derivative nicely.
 }

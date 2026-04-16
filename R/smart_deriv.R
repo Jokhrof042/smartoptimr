@@ -1,4 +1,8 @@
-#' Smart Numerical Differentiation
+#' @title Smart Numerical Derivative
+#' @description Computes the numerical derivative.
+#' @param fn The function to differentiate.
+#' @param x The value to evaluate at.
+#' @param ... Additional arguments.
 #' @export
 smart_deriv <- function(fn, x, ...) {
   # Richardson extrapolation is the most accurate numerical method

@@ -1,3 +1,18 @@
+#' @title Smart Optimization Engine
+#' @description Finds the optimal parameters for a given function with advanced fallbacks and diagnostics.
+#' @param par Initial values for the parameters to be optimized over.
+#' @param fn A function to be minimized (or maximized).
+#' @param gr A function to return the gradient.
+#' @param lower Bounds on the variables for the "L-BFGS-B" method.
+#' @param upper Bounds on the variables for the "L-BFGS-B" method.
+#' @param method The optimization method to be used.
+#' @param n_starts Number of random starts to avoid local minima.
+#' @param scale Scaling parameter for the variables.
+#' @param check_grad Logical. Should the gradient be checked numerically?
+#' @param explain Logical. Should the function print an explanation of the optimization process?
+#' @param benchmark Logical. Should benchmarking be performed?
+#' @param control A list of control parameters to pass to optim().
+#' @param ... Additional arguments to pass to the function `fn`.
 #' @export
 smart_optim <- function(par, fn, gr = NULL, lower = -Inf, upper = Inf,
                         method = "auto", n_starts = 1, scale = TRUE,

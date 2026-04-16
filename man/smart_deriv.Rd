@@ -2,10 +2,17 @@
 % Please edit documentation in R/smart_deriv.R
 \name{smart_deriv}
 \alias{smart_deriv}
-\title{Smart Numerical Differentiation}
+\title{Smart Numerical Derivative}
 \usage{
 smart_deriv(fn, x, ...)
 }
+\arguments{
+\item{fn}{The function to differentiate.}
+
+\item{x}{The value to evaluate at.}
+
+\item{...}{Additional arguments.}
+}
 \description{
-Smart Numerical Differentiation
+Computes the numerical derivative.
 }
