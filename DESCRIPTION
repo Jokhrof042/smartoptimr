@@ -13,3 +13,5 @@ Imports:
     cubature,
     Deriv,
     Ryacas
+URL: https://github.com/Jokhrof042/smartoptimr
+BugReports: https://github.com/Jokhrof042/smartoptimr/issues
